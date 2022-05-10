@@ -1,0 +1,30 @@
+a{
+	color: red ;
+	text-decoration: none;
+	font-size: 18px;		
+}
+                                                                                                                                   
+h1{
+	font-family: helvetica,sans-serif;                 /*se uma não der, dá a outra`*/
+	font-size: 40px;
+	color: blue;
+}
+
+#segundo{
+	font-family: sans-serif;
+	font-size: 20px;
+	color: blue;                                  /* id = "segundo" */
+	border-color: red;
+	text-decoration: none;
+	text-shadow: black;
+}
+
+a.link{
+										/* a.link      só altera os "a" que têm a class "link" */
+	color: darkblue;
+	text-shadow: black;
+}
+
+#body{
+	background-color: aqua;
+}
