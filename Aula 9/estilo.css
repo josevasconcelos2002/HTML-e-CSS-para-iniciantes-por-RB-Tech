@@ -1,0 +1,78 @@
+body{
+	font-family: Helvetica, sans-serif;
+}
+a:link, a:visited {
+	color:#ff6600;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;   /* sublinhado quando passamos o mouse */
+}
+#envelope{
+	width: 960px;
+	margin: auto;
+	background: #e3e3e3;
+	overflow: hidden;
+}
+
+#sidebar{
+	float: right;
+	width: 300px;
+}
+
+#content{
+	float: left;
+	width: 660px;
+}
+
+
+body header h1{
+	padding-left: 200px;
+}
+
+body aside ul{
+	padding-bottom: 100px;
+	list-style: none;
+}
+
+body aside h2{
+	color: black;
+	padding-left: 40px;
+}
+
+body aside ul li a{
+ font-size: 18px;
+}
+
+header nav ul{
+	list-style: none;                   /* retira os pontos */ 
+	padding-left: 200px;
+}
+
+header nav ul li{
+	display: inline-block;      /* colocar os links na mesma linha */
+	padding-right: 10px;
+}
+
+header nav ul li a {
+	font-size: 18px;
+}
+
+body footer ul{
+	list-style: none;
+	padding-left: 300px;
+}
+
+body footer ul li{
+	display: inline-block;      /* colocar os links na mesma linha */
+	padding-right: 10px;
+	
+}
+
+body footer ul li a{
+	font-size: 18px;
+}
+
+footer{
+	clear: both;          /* faz o footer aparecer */
+}
